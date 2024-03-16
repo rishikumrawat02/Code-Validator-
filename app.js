@@ -10,5 +10,5 @@ app.use(cors());
 app.use(Router);
 
 app.listen(PORT, () => {
-    console.log("॥ श्री गणेशाय नमः ॥");
+    console.log(`Server is running on port ${PORT}`);
 });
